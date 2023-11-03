@@ -1,0 +1,9 @@
+- Docker File para configurar as instruções para criação da imagem
+- Build imagem
+    docker build -t image_name:v.0
+
+- Verificar imagens 
+    docker images
+
+Run image example
+    docker run -p 8080:3000 image_name:v.0    
